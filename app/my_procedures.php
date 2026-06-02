@@ -30,7 +30,7 @@ $mis_tramites = [
                     <h1 class="text-2xl font-bold text-slate-900">Mis Solicitudes</h1>
                     <p class="text-slate-600">Historial y estado de tus trámites actuales.</p>
                 </div>
-                <a href="nueva_solicitud.php" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-medium transition shadow-sm flex items-center gap-2">
+                <a href="new_application.php" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-medium transition shadow-sm flex items-center gap-2">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                     Nuevo Trámite
                 </a>

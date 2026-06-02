@@ -36,7 +36,7 @@ $timeline = [
         <main class="flex-1 overflow-x-hidden overflow-y-auto bg-slate-50 p-6">
             
             <div class="mb-6">
-                <a href="earrings_tray.php" class="text-sm font-medium text-slate-500 hover:text-blue-600 flex items-center gap-1 mb-2 transition">
+                <a href="pending_tasks.php" class="text-sm font-medium text-slate-500 hover:text-blue-600 flex items-center gap-1 mb-2 transition">
                     &larr; Volver a la bandeja
                 </a>
                 <h1 class="text-2xl font-bold text-slate-900 flex items-center gap-3">
@@ -93,11 +93,11 @@ $timeline = [
                         </div>
 
                         <div class="flex gap-4">
-                            <a href="earrings_tray.php" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold transition transform hover:-translate-y-0.5">
+                            <a href="pending_tasks.php" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold transition transform hover:-translate-y-0.5">
                                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                                 Aprobar Trámite
                             </a>
-                            <a href="earrings_tray.php" class="flex-1 bg-rose-600 hover:bg-rose-700 text-white flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold transition transform hover:-translate-y-0.5">
+                            <a href="pending_tasks.php" class="flex-1 bg-rose-600 hover:bg-rose-700 text-white flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold transition transform hover:-translate-y-0.5">
                                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                                 Rechazar / Devolver
                             </a>
