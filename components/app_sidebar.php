@@ -12,7 +12,7 @@
                     <a href="dashboard.php" class="bg-blue-600 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                         Dashboard General
                     </a>
-                    <a href="gestor_flujos.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                    <a href="../app/flow_manager.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                         Gestor de Flujos
                     </a>
                     <a href="gestion_accesos.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
@@ -24,9 +24,14 @@
             <div>
                 <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Supervisor</p>
                 <div class="space-y-1">
-                    <a href="bandeja_pendientes.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                    <a href="../app/earrings_tray.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                         Bandeja de Pendientes
                         <span class="ml-auto bg-blue-500 text-white py-0.5 px-2 rounded-full text-xs">12</span>
+                    </a>
+                </div>
+                <div class="space-y-1">
+                    <a href="../app/audit.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Auditoria
                     </a>
                 </div>
             </div>
@@ -34,7 +39,7 @@
             <div>
                 <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Portal del Empleado</p>
                 <div class="space-y-1">
-                    <a href="mis_tramites.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                    <a href="../app/my_procedures.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                         Mis Solicitudes
                     </a>
                     <a href="nueva_solicitud.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">

@@ -23,11 +23,11 @@ $actividad_reciente = [
 </head>
 <body class="bg-slate-50 flex h-screen overflow-hidden font-sans antialiased">
 
-    <?php include '../componentes/app_sidebar.php'; ?>
+    <?php include '../components/app_sidebar.php'; ?>
 
     <div class="flex-1 flex flex-col overflow-hidden">
         
-        <?php include '../componentes/app_navbar.php'; ?>
+        <?php include '../components/app_navbar.php'; ?>
 
         <main class="flex-1 overflow-x-hidden overflow-y-auto bg-slate-50 p-6">
             <div class="mb-8">
