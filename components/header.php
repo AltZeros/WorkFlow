@@ -17,7 +17,7 @@
             </div>
             <div class="space-x-4">
                 <a href="login.php" class="text-slate-600 hover:text-blue-600 font-medium transition">Iniciar Sesión</a>
-                <a href="registro.php" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-medium transition shadow-sm">Comenzar Gratis</a>
+                <a href="register.php" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-medium transition shadow-sm">Comenzar Gratis</a>
             </div>
         </div>
     </nav>

@@ -16,7 +16,7 @@
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="bg-white py-8 px-4 shadow-sm sm:rounded-xl sm:px-10 border border-slate-200">
             
-            <form class="space-y-6" action="dashboard.php" method="GET">
+            <form class="space-y-6" action="app/dashboard.php" method="GET">
                 
                 <div>
                     <label for="email" class="block text-sm font-medium text-slate-700">
@@ -64,6 +64,14 @@
                 </div>
             </form>
 
+            <div class="mt-6 border-t border-slate-200 pt-6 text-center">
+                <p class="text-sm text-slate-600">
+                    ¿Aun no tiene cuenta? 
+                    <a href="register.php" class="font-medium text-blue-600 hover:text-blue-500 transition">
+                        Registrese aqui
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 </main>
