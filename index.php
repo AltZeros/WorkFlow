@@ -10,7 +10,7 @@
     </p>
     
     <div class="flex gap-4">
-        <a href="registro.php" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition transform hover:-translate-y-1">
+        <a href="register.php" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition transform hover:-translate-y-1">
             Crea tu Entorno de Trabajo
         </a>
         <a href="#features" class="bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 px-8 py-4 rounded-lg font-bold text-lg shadow-sm transition">
@@ -49,7 +49,7 @@
     </div>
 </section>
 
-<section id="plans" class="bg-white py-20 border-t border-slate-100"> <<!--Hay que acomodar esta seccion, el modelo de subscricion se plantea como freemium -->
+<section id="plans" class="bg-white py-20 border-t border-slate-100"> <!--Hay que acomodar esta seccion, el modelo de subscricion se plantea como freemium -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
         Planes
