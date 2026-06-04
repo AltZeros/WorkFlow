@@ -76,4 +76,4 @@
     </div>
 </main>
 
-<?php include 'componentes/footer.php'; ?>
+<?php include 'components/footer.php'; ?>
