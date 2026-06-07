@@ -50,8 +50,8 @@
                     </div>
 
                     <div class="text-sm">
-                        <a href="#" class="font-medium text-blue-600 hover:text-blue-500 transition">
-                            ¿Olvidaste tu contraseña?
+                        <a href="claim_account.php" class="font-medium text-blue-600 hover:text-blue-500 transition">
+                            Reclamar cuenta de empleado
                         </a>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
 
             <div class="mt-6 border-t border-slate-200 pt-6 text-center">
                 <p class="text-sm text-slate-600">
-                    ¿Aun no tiene cuenta? 
+                    ¿Tu empresa no tiene un espacio de trabajo?
                     <a href="register.php" class="font-medium text-blue-600 hover:text-blue-500 transition">
-                        Registrese aqui
+                        Regístrate aquí
                     </a>
                 </p>
             </div>

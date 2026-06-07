@@ -28,13 +28,13 @@ $usuarios = [
             <div class="mb-6 flex justify-between items-center">
                 <div>
                     <h1 class="text-2xl font-bold text-slate-900">Directorio de Usuarios</h1>
-                    <p class="text-slate-600">Gestiona los accesos, roles y departamentos de tu personal.</p>
+                    <p class="text-slate-600">Invita empleados, asigna roles y controla el acceso desde tu tenant.</p>
                 </div>
                 <button onclick="document.getElementById('modal-usuario').classList.remove('hidden')" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-md font-medium transition shadow-sm flex items-center gap-2">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path>
                     </svg>
-                    Añadir Usuario
+                    Invitar Empleado
                 </button>
             </div>
 
@@ -107,7 +107,7 @@ $usuarios = [
 
 <div id="modal-usuario" class="hidden fixed inset-0 bg-slate-900 bg-opacity-50 z-50 flex justify-center items-center backdrop-blur-sm transition-opacity">
     <div class="bg-white rounded-xl shadow-lg w-full max-w-md p-6">
-        <h3 class="text-lg font-bold text-slate-900 mb-4">Registrar Nuevo Empleado</h3>
+        <h3 class="text-lg font-bold text-slate-900 mb-4">Invitar Nuevo Empleado</h3>
         <div class="space-y-4">
             <div>
                 <label class="block text-sm font-medium text-slate-700 mb-1">Nombre Completo</label>
@@ -138,7 +138,7 @@ $usuarios = [
         </div>
         <div class="mt-6 flex justify-end gap-3">
             <button onclick="document.getElementById('modal-usuario').classList.add('hidden')" class="px-4 py-2 text-sm font-medium text-slate-700 border border-slate-300 rounded-md hover:bg-slate-50">Cancelar</button>
-            <button onclick="document.getElementById('modal-usuario').classList.add('hidden')" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700">Crear Cuenta</button>
+            <button onclick="document.getElementById('modal-usuario').classList.add('hidden')" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700">Enviar Invitación</button>
         </div>
     </div>
 </div>

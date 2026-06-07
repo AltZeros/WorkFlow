@@ -12,6 +12,9 @@
     <p class="text-xl text-slate-600 mb-10 max-w-2xl">
         WorkFlow es el WMS definitivo para digitalizar, auditar y acelerar los trámites internos de tu empresa. Configura flujos en minutos, no en meses.
     </p>
+    <div class="max-w-3xl mx-auto mb-8 text-sm text-slate-500">
+        <p>Registra tu empresa y configura al primer administrador con el botón principal. Después, invita a tus empleados desde el directorio para que reclamen su cuenta y comiencen a trabajar.</p>
+    </div>
     <div class="flex gap-4">
         <a href="register.php" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg transition transform hover:-translate-y-1">
             Crea tu Entorno de Trabajo
@@ -36,6 +39,43 @@
                 <div><div class="h-12 w-12 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center font-bold mx-auto mb-2">2</div><span class="text-sm">Revisión</span></div>
                 <div class="flex-1 h-0.5 bg-slate-600 mx-4"></div>
                 <div><div class="h-12 w-12 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center font-bold mx-auto mb-2">3</div><span class="text-sm">Aprobación</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-slate-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10 text-center">
+            <h2 class="text-3xl font-extrabold text-slate-900">Tenant Owner vs Empleado</h2>
+            <p class="mt-3 text-slate-600 max-w-2xl mx-auto">Una cuenta de tenant owner crea y administra el espacio de trabajo. Las cuentas de empleado son invitadas y reclaman su acceso con una contraseña.</p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2">
+            <div class="p-8 bg-white rounded-3xl border border-slate-200 shadow-sm">
+                <span class="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-wide">Tenant Owner</span>
+                <h3 class="mt-6 text-2xl font-bold text-slate-900">Administrador de empresa</h3>
+                <p class="mt-4 text-slate-600">Registra la empresa desde la landing, crea el primer administrador, define el tenant y configura flujos, usuarios y suscripción.</p>
+                <ul class="mt-6 space-y-3 text-slate-600">
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> Onboarding inicial del tenant.</li>
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> Invita empleados desde el directorio.</li>
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> Administra roles, flujos y organización.</li>
+                </ul>
+                <div class="mt-8">
+                    <a href="register.php" class="inline-flex items-center justify-center rounded-full bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 transition">Registrar tenant</a>
+                </div>
+            </div>
+            <div class="p-8 bg-white rounded-3xl border border-slate-200 shadow-sm">
+                <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 text-xs font-semibold uppercase tracking-wide">Empleado</span>
+                <h3 class="mt-6 text-2xl font-bold text-slate-900">Cuenta reclamada</h3>
+                <p class="mt-4 text-slate-600">Recibe una invitación desde tu empresa y reclama tu cuenta con tu correo corporativo. Luego podrás iniciar solicitudes y seguir tus trámites.</p>
+                <ul class="mt-6 space-y-3 text-slate-600">
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> No se registra libremente.</li>
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> Reclama la cuenta con correo corporativo.</li>
+                    <li class="flex gap-3"><span class="mt-1 text-emerald-500">•</span> Accede a solicitudes, aprobaciones y operación según rol.</li>
+                </ul>
+                <div class="mt-8">
+                    <a href="claim_account.php" class="inline-flex items-center justify-center rounded-full bg-slate-900 px-5 py-3 text-white font-semibold hover:bg-slate-800 transition">Reclamar cuenta</a>
+                </div>
             </div>
         </div>
     </div>

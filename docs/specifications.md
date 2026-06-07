@@ -6,6 +6,7 @@ WorkFlow es un prototipo de sistema de gestión de trámites y procesos (WMS) or
 ## Modelo de negocio
 - **SaaS multi-tenant**: cada cliente opera en su propio espacio con configuración, usuarios y datos separados.
 - **Usuarios con roles**: solicitante, supervisor, administrador/tenant owner.
+- **Usuarios empleados**: son añadidos por el tenant owner y reclaman su cuenta desde `claim_account.php`.
 - **Suscripción**: pagos recurrentes por plan, con límites y características escalables.
 - **Planes**:
   - WorkFlow Free: máximo de usuarios, flujos y trámites básicos.
@@ -23,6 +24,28 @@ WorkFlow es un prototipo de sistema de gestión de trámites y procesos (WMS) or
 - **Supervisor**: aprueba trámites, revisa bandeja de pendientes y gestiona tareas.
 - **Solicitante / Empleado**: inicia solicitudes, consulta estado y sube documentación.
 - **Usuario operativo**: accede a inventario, picking, packing, y recepciones según permisos.
+
+## Qué es realmente un WMS
+Un WMS es un sistema de gestión de procesos que coordina pasos, roles y estados para que una tarea no quede atrapada en correos o documentos sueltos.
+
+En un WMS típico:
+- un trámite se inicia desde un punto de entrada
+- se define un flujo de aprobación y validación
+- cada etapa tiene un responsable o aprobador
+- el sistema registra quién hace qué y cuándo
+- el objetivo es cerrar ciclos y entregar trazabilidad.
+
+En este prototipo, WorkFlow es un MVP de esos conceptos: el foco está en la definición de flujos, la gestión de solicitudes y la operación básica de inventario/recepción/picking/packing.
+
+## Modelo de usuarios y cuentas
+En un SaaS multi-tenant real, el tenant owner no deja que cualquier empleado se registre libremente. Los usuarios del tenant se gestionan desde el tenant y pueden usar un proceso de invitación o reclamación de cuenta.
+
+El comportamiento esperado sería:
+- `register.php` crea el tenant y al primer administrador.
+- Los empleados se agregan desde `app/access_management.php` o mediante invitación.
+- Alternativamente, los empleados pueden reclamar una cuenta si reciben un enlace de invitación del tenant.
+
+Ese modelo evita que un usuario externo cree una cuenta en un tenant ajeno y permite facturar mejor por usuario activo. En este prototipo esa distinción todavía es conceptual, pero es la dirección correcta para una implementación SaaS madura.
 
 ## Flujo de usuario principal
 1. Usuario llega a la landing pública (`index.php`) y se registra o inicia sesión.
@@ -63,3 +86,10 @@ WorkFlow es un prototipo de sistema de gestión de trámites y procesos (WMS) or
 - Soporte multi-tenant real por subdominio.
 - Flujos condicionales y automatizaciones.
 - Dashboard de costos/uso por tenant.
+
+## Documento de casos de uso
+- Se ha añadido `docs/use_cases.md` con los principales escenarios:
+  - Empleado inicia trámite desde la landing.
+  - Supervisor revisa y aprueba solicitudes.
+  - Administrador configura flujos y usuarios.
+  - Equipo operativo utiliza inventario y procesos WMS.

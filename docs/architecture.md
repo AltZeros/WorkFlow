@@ -3,7 +3,8 @@
 Páginas principales (frontend MVP):
 
 - `index.php` — Landing público.
-- `login.php` / `register.php` — Auth placeholders.
+- `login.php` / `register.php` — Auth placeholders. `register.php` está diseñado como onboarding inicial del tenant, no como registro libre de empleados.
+- `claim_account.php` — página de reclamación de cuenta para empleados invitados.
 - `app/dashboard.php` — Resumen operativo.
 - `app/flow_manager.php` — Gestor de flujos y plantillas de proceso.
 - `app/flow_editor.php` — Editor de flujos y etapa por etapa.
