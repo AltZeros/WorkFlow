@@ -1,0 +1,4 @@
+[
+  {"id":"SH-5001","status":"Listo","packages":1,"carrier":"Correo Local"},
+  {"id":"SH-5002","status":"En Cola","packages":2,"carrier":"Transportes S.A."}
+]

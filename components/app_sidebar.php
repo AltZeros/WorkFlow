@@ -33,6 +33,30 @@
             </div>
 
             <div>
+                <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Operaciones WMS</p>
+                <div class="space-y-1">
+                    <a href="../app/inventory.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Inventario
+                    </a>
+                    <a href="../app/receiving.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Recepciones
+                    </a>
+                    <a href="../app/picking.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Picking
+                    </a>
+                    <a href="../app/packing.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Packing / Envíos
+                    </a>
+                    <a href="../app/subscription.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Suscripción
+                    </a>
+                    <a href="../app/organization.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        Organización
+                    </a>
+                </div>
+            </div>
+
+            <div>
                 <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Supervisor</p>
                 <div class="space-y-1">
                     <a href="../app/pending_tasks.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">

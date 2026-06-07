@@ -1,0 +1,4 @@
+[
+  {"id":"FL-001","name":"Solicitud de Vacaciones","owner":"RRHH","version":3,"status":"Activo","steps":4},
+  {"id":"FL-002","name":"Revisión de Viáticos","owner":"Finanzas","version":2,"status":"Activo","steps":3}
+]
