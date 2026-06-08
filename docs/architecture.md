@@ -12,7 +12,7 @@ Páginas principales (frontend MVP):
 - `app/subscription.php` — Información de suscripción.
 - `app/organization.php` — Configuración del tenant.
 
-Nota: las páginas históricas de operativa (`inventory.php`, `receiving.php`, `picking.php`, `packing.php`) se han movido a `archive/app/` para evitar confusiones con el flujo principal actual.
+Nota: las páginas históricas de operativa se han movido a `archive/app/` como referencia; no forman parte de la navegación principal actual.
 
 Componentes reutilizables:
 
@@ -26,7 +26,7 @@ Mocks:
 
 - `mocks/flows.json` — plantillas de flujos.
 
-Nota: los mocks de inventario/recepciones/picking/packing existen solo para las páginas archivadas en `archive/app/`.
+Nota: algunos mocks antiguos permanecen para las páginas archivadas en `archive/app/`.
 
 Flujo principal (MVP):
 

@@ -16,6 +16,9 @@ Rutas importantes:
 - `app/assessment.php` — evaluación de solicitudes
 - `app/subscription.php` — suscripción y billing
 - `app/organization.php` — configuración del tenant
+- `app/contact_support.php` — contacto de soporte
+- `app/support_inbox.php` — bandeja de respuestas de soporte
+- `claim_account.php` — reclamación de cuenta de empleado
 
 Componentes:
 
@@ -25,14 +28,22 @@ Componentes:
 Docs: ver la carpeta `docs/` para arquitectura y especificaciones de negocio.
 - `docs/architecture.md`
 - `docs/specifications.md`
+- `docs/use_cases.md`
 
 Notas:
-- Las páginas de inventario/recepciones/picking/packing se movieron a `archive/app/` tras el enfoque en el MVP de gestión de trámites.
-- El contenido archivado se mantiene para referencia histórica, pero no forma parte de la navegación activa.
+- El sitio está orientado a un flujo de trámites y aprobaciones; las páginas archivadas en `archive/app/` son referencia histórica.
+- Tailwind se genera localmente en `assets/css/tailwind.css` para evitar dependencias CDN.
 
 Arrancar servidor PHP rápido:
 
 ```bash
 php -S localhost:8000
+```
+
+Reconstruir CSS localmente con Tailwind:
+
+```bash
+npm install
+npm run build:css
 ```
 

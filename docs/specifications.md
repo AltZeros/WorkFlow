@@ -16,7 +16,7 @@ WorkFlow es un prototipo de sistema de gestión de trámites y procesos (Workflo
 ## Propuesta de valor
 1. Centralizar solicitudes y aprobaciones en un solo panel.
 2. Facilitar seguimiento y trazabilidad de cada trámite.
-3. Agilizar picking, recepciones y envíos con flujos configurables.
+3. Agilizar las aprobaciones internas y los procesos de gestión documental.
 4. Permitir a operaciones y finanzas trabajar con eventos auditables.
 
 ## Roles y permisos

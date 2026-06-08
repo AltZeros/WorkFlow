@@ -64,33 +64,6 @@
             </div>
 
             <div>
-                <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Supervisor</p>
-                <div class="space-y-1">
-                    <a href="../app/pending_tasks.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                        Bandeja de Pendientes
-                        <span class="ml-auto bg-blue-500 text-white py-0.5 px-2 rounded-full text-xs">12</span>
-                    </a>
-                </div>
-                <div class="space-y-1">
-                    <a href="../app/audit.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                        Auditoria
-                    </a>
-                </div>
-            </div>
-
-            <div>
-                <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Portal del Empleado</p>
-                <div class="space-y-1">
-                    <a href="../app/my_procedures.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                        Mis Solicitudes
-                    </a>
-                    <a href="../app/new_application.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
-                        Iniciar Trámite
-                    </a>
-                </div>
-            </div>
-
-            <div>
                 <p class="px-2 text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Soporte y Ayuda</p>
                 <div class="space-y-1">
                     <a href="../app/contact_support.php" class="text-slate-300 hover:bg-slate-800 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
