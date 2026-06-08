@@ -1,0 +1,28 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "Prototype frontend para un Workflow Management System (WFMS). Este repo contiene vistas PHP y componentes Tailwind que modelan un MVP de gestión de trámites, aprobaciones y flujos internos sin backend.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i assets/css/tailwind-input.css -o assets/css/tailwind.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltZeros/WorkFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AltZeros/WorkFlow/issues"
+  },
+  "homepage": "https://github.com/AltZeros/WorkFlow#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
