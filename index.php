@@ -10,7 +10,7 @@
         <span class="text-blue-600">sin cuellos de botella</span>
     </h1>
     <p class="text-xl text-slate-600 mb-10 max-w-2xl">
-        WorkFlow es el WMS definitivo para digitalizar, auditar y acelerar los trámites internos de tu empresa. Configura flujos en minutos, no en meses.
+        WorkFlow es el sistema definitivo para digitalizar, auditar y acelerar los trámites internos de tu empresa. Configura flujos en minutos, no en meses.
     </p>
     <div class="max-w-3xl mx-auto mb-8 text-sm text-slate-500">
         <p>Registra tu empresa y configura al primer administrador con el botón principal. Después, invita a tus empleados desde el directorio para que reclamen su cuenta y comiencen a trabajar.</p>
@@ -29,7 +29,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-1/2">
             <h2 class="text-3xl font-extrabold mb-4">¿Qué es un Workflow Management System?</h2>
-            <p class="text-slate-400 text-lg mb-4">Un WMS es el motor lógico de tu empresa. En lugar de usar correos electrónicos desordenados o papeles físicos para aprobar permisos o presupuestos, un WMS centraliza todo.</p>
+            <p class="text-slate-400 text-lg mb-4">Un sistema de gestión de flujos coordina tareas y aprobaciones para que nada se pierda en correos o documentos sueltos.</p>
             <p class="text-slate-400 text-lg">Define reglas claras: la persona <span class="text-emerald-400 font-bold">A</span> solicita, el sistema valida, y la persona <span class="text-blue-400 font-bold">B</span> aprueba. Todo queda registrado, medido y automatizado.</p>
         </div>
         <div class="md:w-1/2 bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-xl">

@@ -1,18 +1,19 @@
 # WorkFlow
 
-Prototype frontend para un Workflow Management System (WMS). Este repo contiene vistas PHP y componentes Tailwind que modelan un MVP de flujo operativo (inventario, recepciones, picking, packing) sin backend.
+Prototype frontend para un Workflow Management System (WFMS). Este repo contiene vistas PHP y componentes Tailwind que modelan un MVP de gestión de trámites, aprobaciones y flujos internos sin backend.
 
 Rutas importantes:
 
 - `index.php` — landing público
+- `login.php` / `register.php` — auth y onboarding del tenant
 - `app/dashboard.php` — panel principal
 - `app/flow_manager.php` — gestor de flujos (templates de proceso)
 - `app/flow_editor.php` — editor de flujos
 - `app/access_management.php` — directorio de usuarios y roles
-- `app/inventory.php` — inventario (usa `mocks/items.json` si existe)
-- `app/receiving.php` — recepciones (usa `mocks/pos.json` si existe)
-- `app/picking.php` — picking (usa `mocks/orders.json`)
-- `app/packing.php` — packing (usa `mocks/shipments.json`)
+- `app/my_procedures.php` — historial de solicitudes
+- `app/new_application.php` — iniciar nuevo trámite
+- `app/pending_tasks.php` — bandeja de aprobaciones
+- `app/assessment.php` — evaluación de solicitudes
 - `app/subscription.php` — suscripción y billing
 - `app/organization.php` — configuración del tenant
 
@@ -24,6 +25,10 @@ Componentes:
 Docs: ver la carpeta `docs/` para arquitectura y especificaciones de negocio.
 - `docs/architecture.md`
 - `docs/specifications.md`
+
+Notas:
+- Las páginas de inventario/recepciones/picking/packing se movieron a `archive/app/` tras el enfoque en el MVP de gestión de trámites.
+- El contenido archivado se mantiene para referencia histórica, pero no forma parte de la navegación activa.
 
 Arrancar servidor PHP rápido:
 

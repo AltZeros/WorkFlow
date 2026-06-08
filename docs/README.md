@@ -1,6 +1,6 @@
 # Documentación - WorkFlow (Frontend MVP)
 
-Bienvenido a la documentación del prototipo frontend de WorkFlow. Aquí se describe la estructura del proyecto, las vistas principales del MVP WMS y cómo trabajar con los mocks.
+Bienvenido a la documentación del prototipo frontend de WorkFlow. Aquí se describe la estructura del proyecto, las vistas principales del MVP de gestión de trámites y cómo trabajar con los mocks.
 
 - Estructura principal: ver `docs/architecture.md`.
 - Especificaciones de negocio y flujo: ver `docs/specifications.md`.
@@ -17,4 +17,4 @@ php -S localhost:8000
 
 2. Abrir en el navegador `http://localhost:8000/index.php` y luego iniciar sesión o navegar a `app/dashboard.php`.
 
-3. Para probar páginas WMS ir a `app/inventory.php`, `app/receiving.php`, `app/picking.php`, `app/packing.php`.
+3. Para probar el flujo de trámites, ir a `app/new_application.php`, `app/my_procedures.php`, `app/pending_tasks.php` y `app/flow_manager.php`.

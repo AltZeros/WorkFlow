@@ -39,7 +39,7 @@
         <div class="mt-10 bg-slate-50 p-6 rounded-xl border border-slate-100">
             <h3 class="text-xl font-bold text-slate-900 mb-3">Nuestro Objetivo</h3>
             <p class="text-base text-slate-600">
-                Democratizar el acceso a Sistemas de Gestión de Procesos de Negocio (WMS/BPM) de nivel corporativo, entregando un servicio confiable, escalable y seguro.
+                Democratizar el acceso a sistemas de gestión de procesos de negocio (BPM/WFMS) de nivel corporativo, entregando un servicio confiable, escalable y seguro.
             </p>
         </div>
     </div>

@@ -80,7 +80,7 @@ $flujos_disponibles = [
                         </div>
 
                         <div class="pt-4 border-t border-slate-200 flex justify-end gap-3">
-                            <a href="mis_tramites.php" class="bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 px-6 py-2.5 rounded-lg font-medium transition shadow-sm">
+                            <a href="my_procedures.php" class="bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 px-6 py-2.5 rounded-lg font-medium transition shadow-sm">
                                 Cancelar
                             </a>
                             <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg font-bold shadow-sm transition flex items-center gap-2">

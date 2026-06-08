@@ -83,24 +83,24 @@ Este documento describe los casos de uso principales del sistema de gestión de 
 
 ---
 
-## Caso de uso 4: Equipo operativo utiliza WMS
+## Caso de uso 4: Administrador revisa la operación del tenant
 
 ### Actor
-- Usuario operativo / logística
+- Administrador / tenant owner
 
 ### Objetivo
-- Trabajar con inventario, recepciones y envíos.
+- Ver métricas, estado del tenant y revisar configuración de negocio.
 
 ### Flujo principal
 1. Inicia sesión desde la landing.
-2. Accede a `Inventario` para consultar stock.
-3. Si llega mercancía, va a `Recepciones` y registra entrada.
-4. Para preparar pedidos, utiliza `Picking`.
-5. Finalmente, cierra el proceso en `Packing / Envíos`.
+2. Accede a `Dashboard General` para revisar actividad reciente.
+3. Navega a `Gestor de Flujos` para verificar las plantillas de aprobación.
+4. Ajusta roles y permisos en `Directorio de Usuarios`.
+5. Revisa suscripción y organización desde `Organización` y `Suscripción`.
 
 ### Resultado esperado
-- El sistema soporta el flujo WMS básico.
-- El equipo operativo tiene herramientas separadas de las aprobaciones.
+- El tenant está configurado y los flujos son consistentes.
+- El administrador puede responder a cambios de negocio y supervisar el uso.
 
 ---
 
@@ -117,6 +117,5 @@ Este documento describe los casos de uso principales del sistema de gestión de 
 2. Dashboard general
 3. Mis Solicitudes / Iniciar Trámite
 4. Bandeja de Pendientes / Auditoría
-5. Inventario / Recepciones / Picking / Packing
-6. Gestor de Flujos / Directorio de Usuarios / Organización / Suscripción
+5. Gestor de Flujos / Directorio de Usuarios / Organización / Suscripción
 7. Soporte

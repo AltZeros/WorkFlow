@@ -7,7 +7,7 @@
         </h2>
         <p class="mt-2 text-center text-sm text-slate-600">
             O 
-            <a href="registro.php" class="font-medium text-blue-600 hover:text-blue-500 transition">
+            <a href="register.php" class="font-medium text-blue-600 hover:text-blue-500 transition">
                 registra tu empresa gratis
             </a>
         </p>
