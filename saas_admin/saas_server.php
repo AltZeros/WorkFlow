@@ -10,15 +10,20 @@
 
     <?php include '../components/saas_sidebar.php'; ?>
 
-    <div class="flex-1 flex flex-col overflow-hidden">
-        <header class="h-16 flex items-center justify-between px-8 border-b border-slate-800 bg-slate-900">
-            <h2 class="text-lg font-medium text-white flex items-center gap-2">
-                <div class="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></div>
-                Estado del Servidor
-            </h2>
+    <div class="flex-1 flex flex-col overflow-hidden w-full">
+        <header class="h-16 flex items-center justify-between px-4 md:px-8 border-b border-slate-800 bg-slate-900">
+            <div class="flex items-center gap-3">
+                <button onclick="toggleSaasSidebar()" class="md:hidden text-slate-400 hover:text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+                <h2 class="text-lg font-medium text-white flex items-center gap-2">
+                    <div class="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></div>
+                    Estado del Servidor
+                </h2>
+            </div>
         </header>
 
-        <main class="flex-1 overflow-x-hidden overflow-y-auto p-8">
+        <main class="flex-1 overflow-x-hidden overflow-y-auto p-4 md:p-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
                     <div class="flex justify-between items-end mb-4">
