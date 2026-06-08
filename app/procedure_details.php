@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles del Trámite | WorkFlow</title>
-    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <link rel="stylesheet" href="../assets/css/tailwind.css">
 </head>
 <body class="bg-slate-50 flex h-screen overflow-hidden font-sans antialiased">
     <?php include '../components/app_sidebar.php'; ?>

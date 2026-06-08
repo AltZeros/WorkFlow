@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorkFlow | Automatiza tu Empresa</title>
-    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
