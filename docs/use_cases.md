@@ -72,8 +72,9 @@ Este documento describe los casos de uso principales del sistema de gestión de 
 2. Accede a `Dashboard General` para ver métricas.
 3. Va a `Gestor de Flujos` para crear o editar un flujo de aprobación.
 4. Configura etapas, aprobadores y reglas básicas.
-5. Guarda el flujo y lo publica.
-6. En `Directorio de Usuarios` asigna roles a nuevos empleados y supervisores.
+5. Si el proceso lo requiere, vincula subflujos a etapas críticas para modelar decisiones anidadas.
+6. Guarda el flujo y lo publica.
+7. En `Directorio de Usuarios` asigna roles a nuevos empleados y supervisores.
 7. Si es necesario, revisa `Organización` y `Suscripción`.
 
 ### Resultado esperado

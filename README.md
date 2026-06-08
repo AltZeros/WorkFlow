@@ -8,7 +8,7 @@ Rutas importantes:
 - `login.php` / `register.php` — auth y onboarding del tenant
 - `app/dashboard.php` — panel principal
 - `app/flow_manager.php` — gestor de flujos (templates de proceso)
-- `app/flow_editor.php` — editor de flujos
+- `app/flow_editor.php` — editor de flujos con soporte de subflujos enlazables
 - `app/access_management.php` — directorio de usuarios y roles
 - `app/my_procedures.php` — historial de solicitudes
 - `app/new_application.php` — iniciar nuevo trámite

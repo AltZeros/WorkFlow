@@ -59,6 +59,7 @@ Ese modelo evita que un usuario externo cree una cuenta en un tenant ajeno y per
 - Dashboard de métricas y actividad.
 - Gestión de usuarios y roles.
 - Diseño y edición de flujos de aprobación.
+- Soporte de subflujos anidados: una etapa puede vincularse a otro flujo como subproceso.
 - Gestor de solicitudes y bandeja de pendientes.
 - Auditoría y trazabilidad.
 - Configuración de organización y suscripción.
