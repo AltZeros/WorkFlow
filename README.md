@@ -25,10 +25,12 @@ Componentes:
 - `components/simple_table.php` — tabla reutilizable con búsqueda y paginación client-side
 - `components/modal_scan.php`, `components/modal_confirm.php`, `components/toasts.php`
 
-Docs: ver la carpeta `docs/` para arquitectura y especificaciones de negocio.
+Docs: ver la carpeta `docs/` para arquitectura, especificaciones y desarrollo.
 - `docs/architecture.md`
 - `docs/specifications.md`
 - `docs/use_cases.md`
+- `docs/documento_de_desarrollo.md`
+- `docs/empresa_nexus.md`
 
 Notas:
 - El sitio está orientado a un flujo de trámites y aprobaciones; las páginas archivadas en `archive/app/` son referencia histórica.
